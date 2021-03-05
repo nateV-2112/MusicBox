@@ -1,7 +1,7 @@
 '''
 * This MusicBoxExecutable program, by usage of a Musicbox class,
 * is able to play music notes corresponding to integer values.
-* integer values 
+*  
 *
 * @author  Nathaniel Ventura
 * @version 1.0
