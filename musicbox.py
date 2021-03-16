@@ -58,12 +58,15 @@ class MusicBox:
                 self.__player.note_off(note, 127, channel)
                 channel += 1
 
+    
+
 
 if __name__ == "__main__":
     # Example of how to use the MusicBox
     m = MusicBox()
     m.play_note(60, 400)
     m.play_note(64, 400)
+    # chord section
     m.play_chord([60, 64, 67], 600)
     m.play_chord([60, 64, 67], 200)
     m.play_chord([60, 64, 67], 600)
